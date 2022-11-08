@@ -8,7 +8,7 @@ import {
 const Thumbnail = ({ movie }) => {
     const BASEURL = "https://image.tmdb.org/t/p/original"
     return (
-        <div ref={ref} className='group p-2 cursor-pointer transition duration-200 ease-in transform 
+        <div className='group p-2 cursor-pointer transition duration-200 ease-in transform 
         sm:hover:scale-105 sm:hover:z-50'>
             <Image
                 layout='responsive'
