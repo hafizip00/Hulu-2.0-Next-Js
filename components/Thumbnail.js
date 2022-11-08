@@ -16,6 +16,7 @@ const Thumbnail = forwardRef(({ movie }, ref) => {
                 width={1080}
                 height={1920}
                 className="rounded-xl group-hover:rounded-none"
+                alt=''
             />
 
             <div className=''>
